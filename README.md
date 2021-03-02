@@ -1,5 +1,5 @@
-# fsa-group-7
-This is a full stack app
+# Full Stack App
+This is a full stack application shows the details of the valid Teasure location and our present location.
 
 ## Group Members
 
