@@ -19,7 +19,7 @@ This is a full stack application shows the details of the valid Teasure location
 - Framework- Jest
 - Libraries- JavaScript
 - FrontEnd- HTML, CSS
-- WebApp Hosting - Heruku
+- WebApp Hosting - Heroku
 - IDE- VS CODE
 - Platform- Web application
 
