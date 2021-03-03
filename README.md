@@ -20,6 +20,8 @@ This is a full stack application shows the details of the valid Teasure location
 - Libraries- JavaScript
 - FrontEnd- HTML, CSS
 - WebApp Hosting - Heruku
+- IDE- VS CODE
+- Platform- Web application
 
 ## Project Tracking Information
 
