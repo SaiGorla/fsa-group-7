@@ -1,5 +1,5 @@
 # Full Stack App
-This is a full stack application shows the details of the valid Teasure location and our present location.
+This is a full stack application shows the details of the valid Teasure location.This app is all about playing a search game with two different colors. When the user selects the first color, the system will ask for a valid spot. When the user touches the second color, depending on their position, they will hear and see a confirmation message that they have arrived at the treasure location; if they are beyond the location, they will hear and see some detail on how to get there.
 
 ## Group Members
 
@@ -15,18 +15,15 @@ This is a full stack application shows the details of the valid Teasure location
  
 ## Stack Information
 
-- Data store- My SQL
+- DB - My SQL
 - Framework- Jest
 - Libraries- JavaScript
 - FrontEnd- HTML, CSS
+- WebApp Hosting - Heruku
 
 ## Project Tracking Information
 
 - GitHub Projects Board - [Kanban Board](https://github.com/Puneeth159/fsa-group-7/projects/1?add_cards_query=is%3Aopen)
 
-### Tools and Software
-* JDK - [Download](https://adoptopenjdk.net/)
-* [Eclipse-IDE](https://www.eclipse.org/ide/) - [Download](https://www.eclipse.org/downloads/)
-* [MySQL Workbench](https://www.mysql.com/products/workbench/) - [Download](https://www.mysql.com/downloads/)
-* [Visual Studio Code](https://code.visualstudio.com/) - [Download](https://code.visualstudio.com/Download)
+ 
 
