@@ -15,7 +15,7 @@ This is a full stack application shows the details of the valid Teasure location
  
 ## Stack Information
 
-- DB - My SQL
+- DB - MySQL
 - Framework- Jest
 - Libraries- JavaScript
 - FrontEnd- HTML, CSS
