@@ -1,1 +1,31 @@
-{}
+{
+  "name": "fsa-group-7",
+  "version": "1.0.0",
+  "description": "Fsa-Group-7",
+  "main": "locations.js",
+    "scripts": {
+      "start": "locations.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Puneeth159/fsa-group-7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Puneeth159/fsa-group-7/issues"
+  },
+  "homepage": "https://github.com/Puneeth159/fsa-group-7#readme",
+  "devDependencies":{ 
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "lint": "^0.7.0",
+    "prettier": "^2.2.1"
+  }
+}
