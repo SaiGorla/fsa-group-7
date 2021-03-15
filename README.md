@@ -15,12 +15,12 @@ This is a full stack application shows the details of the valid Teasure location
  
 ## Stack Information
 
-- DB - MySQL
-- Framework- Jest
-- Libraries- JavaScript
-- FrontEnd- HTML, CSS
+- DB - pgSQL
+- Environment: node
+- FrontEnd- ejs, CSS
 - WebApp Hosting - Heroku
 - IDE- VS CODE
+- Backend - Express
 - Platform- Web application
 
 ## Project Tracking Information
