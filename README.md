@@ -22,10 +22,5 @@ This is a full stack application shows the details of the valid Teasure location
 - IDE- VS CODE
 - Backend - Express
 - Platform- Web application
-
-## Project Tracking Information
-
-- GitHub Projects Board - [Kanban Board](https://github.com/Puneeth159/fsa-group-7/projects/1?add_cards_query=is%3Aopen)
-
  
 
