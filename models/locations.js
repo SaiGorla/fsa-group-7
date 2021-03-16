@@ -1,5 +1,7 @@
-module.exports = (db, DataTypes) => {
-    db.define('Location', {
+const mongoose = require("mongoose")
+
+const LocationSchema = new mongoose.Schema( {
+     
       locationId: {
         type: DataTypes.INTEGER,
         primaryKey: true,
@@ -22,6 +24,8 @@ module.exports = (db, DataTypes) => {
         validate: { min: -180, max: 180 }
       }
      
-    });
+   
   
-  };
+})
+
+module.exports = mongoose.model("Location", LocationSchema)
