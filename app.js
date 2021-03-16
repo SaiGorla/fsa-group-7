@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect('mongodb+srv://cluster0.gdkck.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', 
+mongoose.connect('mongodb+srv://Sai:<S538416>@cluster0.gdkck.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', 
 { useNewUrlParser: true, useUnifiedTopology: true }).then((res) =>{
   app.listen(3000, function () {
   return "Connected to Database"
