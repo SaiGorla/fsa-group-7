@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = 3000;
+port = process.env.PORT || 8000
 const mongoose = require("mongoose")
 app.use(require('./routes/router'))
 require('dotenv').config({ path: '.env' });
@@ -10,10 +10,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 mongoose.connect(process.env.ATLAS_URI, { useNewUrlParser: true, useUnifiedTopology: true }).then((res) =>{
-  app.listen(3000, function () {
-  return "Connected to Database"
-  
+  app.listen(port, async () => {
+    try{
+      console.log("Connected to Database")
+    }
+catch(err){
+ console.log(err.message)
+}
 })
-}).catch((e) => {
- console.log(e)
 })
