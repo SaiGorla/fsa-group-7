@@ -8,17 +8,17 @@ var locationController = require('../controllers/locationController')
 
 router
 
-router.get('/location/', locationController.findAll)
+router.get('/locations/', locationController.findAll)
 
-router.get('/location/about', locationController.show)
+router.get('/locations/about', locationController.show)
 
-router.get('/location/:locationId', locationController.findOne)
+router.get('/locations/:locationId', locationController.findOne)
 
-router.post('/location/', locationController.create)
+router.post('/locations/', locationController.create)
 
-router.put('/location/:locationId', locationController.update)
+router.put('/locations/:locationId', locationController.update)
 
-router.delete('/location/:locationId', locationController.delete)
+router.delete('/locations/:locationId', locationController.delete)
 
 
 

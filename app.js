@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var cors = require('cors')
+//var cors = require('cors')
 var env = require('dotenv').config()
 // const router = require('./routes/router')
 const mongoose = require("mongoose")
@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 console.log(process.env.ATLAS_URI, "--string is here--")
 mongoose.connect(process.env.ATLAS_URI, { useNewUrlParser: true, useUnifiedTopology: true }).then((res) => {
-  app.listen(process.env.PORT || 3001, function () {
+  app.listen(process.env.PORT || 3002, function () {
     return "Connected to Database"
 
   })
@@ -32,4 +32,4 @@ mongoose.connect(process.env.ATLAS_URI, { useNewUrlParser: true, useUnifiedTopol
 })
 
 app.use(require('./routes/router'))
-app.use(cors())
+//app.use(cors())

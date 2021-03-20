@@ -2,7 +2,7 @@
 
 const express = require('express')
 const app = express.Router()
-var LocationSchema = require('../models/location')
+var LocationSchema = require('../models/locations')
 
 
 // let bodyParser = require('body-parser');
