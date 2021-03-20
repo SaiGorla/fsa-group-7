@@ -1,25 +1,26 @@
-const mongoose = require("mongoose")
-
-const LocationSchema = new mongoose.Schema({
-  locationName: {
-    type: String,
-    // required: true,
-    unique: true,
-    trim: true,
-  },
-  latitude: {
-    type: String,
-    // required: true,
-    trim: true
-  },
-  longitude: {
-    type: String,
-    trim: true
-  },
-  radius: {
-    type: Number,
-    // required: true,
-  }
-})
-
-module.exports = mongoose.model("Locations", LocationSchema)
+// module.exports = (db, DataTypes) => {
+//   db.define('Location', {
+//     locationId: {
+//       type: DataTypes.INTEGER,
+//       primaryKey: true,
+//       allowNull: false
+//     },
+//     locationLatitude: {
+//       type: DataTypes.DECIMAL(10, 8),
+//       allowNull: false
+//     },
+//     locationLongitude: {
+//       type: DataTypes.DECIMAL(11, 8),
+//       allowNull: false
+//     },
+//
+//     locationValue: {
+//       type: DataTypes.INTEGER,
+//       allowNull: false
+//     }
+//
+//
+//
+//   });
+//
+// };

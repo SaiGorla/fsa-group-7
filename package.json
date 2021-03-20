@@ -1,35 +1,20 @@
 {
-  "name": "fsa-group-7",
-  "version": "1.0.0",
-  "description": "Full Stack Application",
-  "main": "app.js",
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Puneeth159/fsa-group-7.git"
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   },
-  "author": "Punneth Annam",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Puneeth159/fsa-group-7/issues"
-  },
-  "homepage": "https://github.com/Puneeth159/fsa-group-7#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "consolidate": "^0.16.0",
-    "dotenv": "^8.2.0",
-    "ejs": "^3.1.6",
-    "eslint": "^7.21.0",
-    "express": "^4.17.1",
-    "mongodb": "^3.6.4",
-    "mongoose": "^5.11.15",
-    "node": "^14.15.0",
-    "pg": "latest",
-    "pg-hstore": "latest",
-    "sequelize": "latest",
-    "sequelize-cli": "latest"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
